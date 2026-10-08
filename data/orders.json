@@ -1,0 +1,105 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer_id": "C001",
+    "items": [
+      {"name": "Serum Dưỡng Da Hữu Cơ", "sku": "SKU-101", "qty": 1, "price": 450000},
+      {"name": "Kem Dưỡng Ẩm Vitamin C", "sku": "SKU-102", "qty": 2, "price": 320000}
+    ],
+    "total": 1090000,
+    "status": "delayed",
+    "payment_status": "paid",
+    "payments": [{"amount": 1090000, "date": "2026-09-28", "method": "credit_card", "transaction_id": "TXN-5001"}],
+    "shipping": {
+      "carrier": "Giao Hàng Nhanh",
+      "tracking": "GHN-998877",
+      "estimated_delivery": "2026-10-02",
+      "actual_delivery": null
+    },
+    "created_at": "2026-09-28",
+    "notes": "Khách hàng liên hệ về đơn trễ ngày 5/10"
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer_id": "C002",
+    "items": [
+      {"name": "Chai dưỡng tóc", "sku": "SKU-201", "qty": 1, "price": 90000}
+    ],
+    "total": 90000,
+    "status": "delivered",
+    "payment_status": "double_charged",
+    "payments": [
+      {"amount": 90000, "date": "2026-10-01", "method": "credit_card", "transaction_id": "TXN-5002"},
+      {"amount": 90000, "date": "2026-10-01", "method": "credit_card", "transaction_id": "TXN-5003"}
+    ],
+    "shipping": {
+      "carrier": "Giao Hàng Nhanh",
+      "tracking": "GHN-998878",
+      "estimated_delivery": "2026-10-05",
+      "actual_delivery": "2026-10-04"
+    },
+    "created_at": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "order_id": "ORD-1003",
+    "customer_id": "C003",
+    "items": [
+      {"name": "Combo Chăm Sóc Da Cao Cấp", "sku": "SKU-301", "qty": 1, "price": 1990000},
+      {"name": "Kem Chống Lão Hoá Vùng Mắt", "sku": "SKU-302", "qty": 1, "price": 650000}
+    ],
+    "total": 2640000,
+    "status": "delivered",
+    "payment_status": "double_charged",
+    "payments": [
+      {"amount": 2640000, "date": "2026-09-20", "method": "credit_card", "transaction_id": "TXN-5004"},
+      {"amount": 2640000, "date": "2026-09-20", "method": "credit_card", "transaction_id": "TXN-5005"}
+    ],
+    "shipping": {
+      "carrier": "Viettel Post",
+      "tracking": "VTP-112233",
+      "estimated_delivery": "2026-09-25",
+      "actual_delivery": "2026-09-24"
+    },
+    "created_at": "2026-09-20",
+    "notes": ""
+  },
+  {
+    "order_id": "ORD-1004",
+    "customer_id": "C004",
+    "items": [
+      {"name": "Gói Dùng Thử - Cơ Bản", "sku": "SKU-401", "qty": 1, "price": 150000}
+    ],
+    "total": 150000,
+    "status": "processing",
+    "payment_status": "paid",
+    "payments": [{"amount": 150000, "date": "2026-10-06", "method": "debit_card", "transaction_id": "TXN-5006"}],
+    "shipping": {
+      "carrier": null,
+      "tracking": null,
+      "estimated_delivery": "2026-10-12",
+      "actual_delivery": null
+    },
+    "created_at": "2026-10-06",
+    "notes": "Đơn mới, chưa giao hàng"
+  },
+  {
+    "order_id": "ORD-1005",
+    "customer_id": "C005",
+    "items": [
+      {"name": "Sữa Dưỡng Thể Cấp Ẩm", "sku": "SKU-501", "qty": 3, "price": 280000}
+    ],
+    "total": 840000,
+    "status": "shipped",
+    "payment_status": "paid",
+    "payments": [{"amount": 840000, "date": "2026-10-03", "method": "momo", "transaction_id": "TXN-5007"}],
+    "shipping": {
+      "carrier": "Giao Hàng Nhanh",
+      "tracking": "GHN-998880",
+      "estimated_delivery": "2026-10-09",
+      "actual_delivery": null
+    },
+    "created_at": "2026-10-03",
+    "notes": ""
+  }
+]

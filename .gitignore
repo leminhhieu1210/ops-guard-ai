@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ChromaDB local storage
+.chromadb/
+.agents/
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .md
+note.md
+cli.py
+tests/

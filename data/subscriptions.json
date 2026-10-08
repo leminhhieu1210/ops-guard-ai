@@ -1,0 +1,38 @@
+[
+  {
+    "subscription_id": "SUB-001",
+    "customer_id": "C001",
+    "plan": "Premium Tháng",
+    "price": 90000,
+    "status": "active",
+    "billing_cycle": "monthly",
+    "started_at": "2025-04-01",
+    "next_billing": "2026-11-01",
+    "last_payment": {"amount": 90000, "date": "2026-10-01", "transaction_id": "TXN-6001"},
+    "cancellation_date": null
+  },
+  {
+    "subscription_id": "SUB-002",
+    "customer_id": "C003",
+    "plan": "Premium Năm",
+    "price": 2990000,
+    "status": "active",
+    "billing_cycle": "annual",
+    "started_at": "2026-01-15",
+    "next_billing": "2027-01-15",
+    "last_payment": {"amount": 2990000, "date": "2026-01-15", "transaction_id": "TXN-6002"},
+    "cancellation_date": null
+  },
+  {
+    "subscription_id": "SUB-003",
+    "customer_id": "C005",
+    "plan": "Tiêu Chuẩn Tháng",
+    "price": 140000,
+    "status": "active",
+    "billing_cycle": "monthly",
+    "started_at": "2026-06-01",
+    "next_billing": "2026-11-01",
+    "last_payment": {"amount": 140000, "date": "2026-10-01", "transaction_id": "TXN-6003"},
+    "cancellation_date": null
+  }
+]

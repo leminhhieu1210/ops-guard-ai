@@ -1,0 +1,15 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "customer_id": "C001",
+    "order_id": "ORD-1001",
+    "type": "delivery_issue",
+    "status": "open",
+    "priority": "medium",
+    "summary": "Khách hàng báo giao hàng trễ cho đơn ORD-1001",
+    "created_at": "2026-10-05T14:30:00Z",
+    "created_by": "system",
+    "assigned_to": null,
+    "resolution": null
+  }
+]
